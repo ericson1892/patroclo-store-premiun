@@ -23,5 +23,6 @@
 # comandos mas usados
 - php artisan make:controller CategoriaController
 - php artisan make:model Categoria
-#EA 2 VARGAS PEREZ ERICSON - LINK DEL VIDEO
+  
+# EA 2 VARGAS PEREZ ERICSON - LINK DEL VIDEO
 https://drive.google.com/drive/folders/1Bee3WbR7k5muU1nCdpfZfnJMK9UNyEpG?usp=sharing
