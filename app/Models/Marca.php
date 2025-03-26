@@ -5,19 +5,21 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Categoria extends Model
+class Marca extends Model
 {
     use HasFactory;
-    protected $table = 'categorias';
+    protected $table = 'marcas';
 
     protected $fillable = [
-        'id_categoria',
+        'id_marca',
         'nombre',
-        'imagen_url'
+        'codigo_pais'
+        
     ];
-    public function subcategorias()
+
+    public function productos()
     {
-        return $this->hasMany(Subcategoria::class);
+        return $this->belongsTo(Producto::class);
     }
 
     public $timestamps = false;

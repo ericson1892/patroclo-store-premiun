@@ -3,10 +3,14 @@
         Inicio
     </div>
     <div class="hover:bg-orange-600 p-1 rounded cursor-pointer">
+    <a href="{{route('productos.index')}}">
         Productos
+    </a>
     </div>
-    <div class="hover:bg-orange-600 p-1 rounded cursor-pointer">
+    <div class="hover:bg-orange-600 p-1 rounded cursor-pointer" >
+    <a href="{{route('marcas.index')}}">
         Marcas
+    </a>
     </div>
     <div class="hover:bg-orange-600 p-1 rounded cursor-pointer">
         Carrito
